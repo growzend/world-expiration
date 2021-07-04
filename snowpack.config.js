@@ -3,24 +3,10 @@
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
-  mount: {
-    /* ... */
-  },
-  plugins: [
-    /* ... */
-  ],
-  packageOptions: {
-    /* ... */
-  },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
   exclude: ["**/LICENSE"],
   root: "./src",
   buildOptions: {
     out: ".",
+    metaUrlPath: "snowpack",
   },
 };
