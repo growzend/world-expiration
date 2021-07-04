@@ -1,4 +1,4 @@
-import moment from "moment";
+import moment from "./_snowpack/pkg/moment.js";
 
 const $days = document.getElementById("days");
 const $timeAt = document.getElementById("timeAt");

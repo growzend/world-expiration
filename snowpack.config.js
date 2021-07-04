@@ -19,4 +19,8 @@ module.exports = {
     /* ... */
   },
   exclude: ["**/LICENSE"],
+  root: "./src",
+  buildOptions: {
+    out: ".",
+  },
 };

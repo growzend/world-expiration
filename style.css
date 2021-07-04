@@ -1,4 +1,4 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+@import "./_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css";
 
 body {
   margin-top: 80px;
