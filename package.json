@@ -1,0 +1,19 @@
+{
+  "name": "world-expiration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:growzend/world-expiration.git",
+  "author": "Samsul Arif Zulvian <48172520+kangzoel@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "snowpack": "^3.7.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "moment": "^2.29.1"
+  }
+}

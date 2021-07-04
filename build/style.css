@@ -1,0 +1,17 @@
+@import "./_snowpack/pkg/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+form {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days-input {
+  width: 100px;
+}
